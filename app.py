@@ -5,7 +5,7 @@ import streamlit as st
 import os
 
 # Load the trained model
-model_path = "model.h5"
+model_path = "Soil_Classification.h5"
 SoilNet = load_model(model_path)
 st.markdown(
         """
