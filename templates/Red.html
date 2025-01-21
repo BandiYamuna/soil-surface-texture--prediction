@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Red Soil</title>
+        <link rel="shortcut icon" type="image" href="/static/css/images/Clay_2.jpg">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-image: url('https://m.media-amazon.com/images/I/61A+ysVsqgL._AC_UF1000,1000_QL80_.jpg');
+            }
+            #wrapper {
+                max-width: 1200px;
+                width: 90%;
+                text-align: center;
+                background-image: url('https://cdn.pixabay.com/photo/2023/02/01/21/40/pink-7761356_640.png');
+				background-repeat: no-repeat;
+				background-size: cover;
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 2em;
+                margin-bottom: 20px;
+                color: #333;
+            }
+            header p {
+                font-size: 1.2em;
+                color: #555;
+            }
+            .crop-gallery {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                gap: 20px;
+                margin-top: 20px;
+            }
+            .crop-item {
+                text-align: center;
+                width: calc(33% - 20px);
+                box-sizing: border-box;
+            }
+            .crop-item img {
+                width: 100%;
+                height: auto;
+                max-height: 150px;
+                border: 2px solid #ccc;
+                border-radius: 8px;
+                object-fit: cover;
+            }
+            .crop-item p {
+                margin-top: 10px;
+                font-size: 1em;
+                font-weight: bold;
+                color: #333;
+            }
+            footer {
+                margin-top: 20px;
+                font-size: 0.9em;
+                color: #aaa;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <!-- Header -->
+            <header id="header">
+                <h1>Soil Type: Red Soil</h1>
+                <p>You can Plant below crops:</p>
+                <div class="crop-gallery">
+                    <div class="crop-item">
+                        <img src="https://textileengineering.net/wp-content/uploads/2023/01/Cotton-Fibre.jpg" alt="Cotton">
+                        <p>Cotton</p>
+                    </div>
+                    <div class="crop-item">
+                        <img src="https://www.epicgardening.com/wp-content/uploads/2022/01/wheat-vs-barley-1.jpg" alt="Wheat">
+                        <p>Wheat</p>
+                    </div>
+                    <div class="crop-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5FnsC4oOq5c6HebsREvIJMep7GpHaCK3MpA&s" alt="Pulses">
+                        <p>Pulses</p>
+                    </div>
+                    <div class="crop-item">
+                        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZBMl-oxSQ-8G5gEoSmSxNi1Z2S6NTYCaFRC2d0Nfg-ifrXLoO4d4jBBaN9WUBYzYCGxmt3oaTomnmu0gHn8XPjQ" alt="Millets">
+                        <p>Millets</p>
+                    </div>
+                    <div class="crop-item">
+                        <img src="https://static.toiimg.com/photo/88435060.cms" alt="Oil Seeds">
+                        <p>Oil Seeds</p>
+                    </div>
+                    <div class="crop-item">
+                        <img src="https://plantix.net/en/library/assets/custom/crop-images/potato.jpeg" alt="Potatoes">
+                        <p>Potatoes</p>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Footer -->
+            <footer id="footer">
+            </footer>
+        </div>
+        <script>
+            window.onload = function() { document.body.classList.remove('is-preload'); }
+            window.ontouchmove = function() { return false; }
+            window.onorientationchange = function() { document.body.scrollTop = 0; }
+        </script>
+    </body>
+</html>

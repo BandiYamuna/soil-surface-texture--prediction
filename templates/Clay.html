@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Clay Soil</title>
+        <link rel="shortcut icon" type="image" href="/static/css/images/Clay_2.jpg">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-image: url('https://www.shutterstock.com/image-photo/rich-hue-red-soilred-soil-600nw-2472615905.jpg');
+            }
+            #wrapper {
+                max-width: 1200px;
+                width: 90%;
+                text-align: center;
+                background-image: url('https://cdn.pixabay.com/photo/2023/02/01/21/40/pink-7761356_640.png');
+				background-repeat: no-repeat;
+				background-size: cover;
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 2em;
+                margin-bottom: 20px;
+                color: #333;
+            }
+            header p {
+                font-size: 1.2em;
+                color: #555;
+            }
+            .crop-gallery {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                gap: 20px;
+                margin-top: 20px;
+            }
+            .crop-item {
+                text-align: center;
+                width: calc(33% - 20px);
+                box-sizing: border-box;
+            }
+            .crop-item img {
+                width: 100%;
+                height: auto;
+                max-height: 150px;
+                border: 2px solid #ccc;
+                border-radius: 8px;
+                object-fit: cover;
+            }
+            .crop-item p {
+                margin-top: 10px;
+                font-size: 1em;
+                font-weight: bold;
+                color: #333;
+            }
+            footer {
+                margin-top: 20px;
+                font-size: 0.9em;
+                color: #aaa;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <!-- Header -->
+            <header id="header">
+                <h1>Soil Type: Clay Soil</h1>
+                <p>You can Plant below crops:</p>
+                <div class="crop-gallery">
+                    <div class="crop-item">
+                        <img src="https://www.world-grain.com/ext/resources/Article-Images/2021/09/Rice_AdobeStock_64819529_E.jpg?height=667&t=1632316472&width=1080" alt="Rice">
+                        <p>Rice</p>
+                    </div>
+                    <div class="crop-item">
+                        <img src="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/red-leaf-lettuce-1296x728-feature.jpg?w=1155&h=1528" alt="Lettuce">
+                        <p>Lettuce</p>
+                    </div>
+                    <div class="crop-item">
+                        <img src="https://www.health.com/thmb/m6gcOGCKNjLCv5mnk8zV_MqDX9U=/2121x0/filters:no_upscale():max_bytes(150000):strip_icc()/SwissChard-6193e3b4941b4479979f5df338ae6ea3.jpg" alt="Chard">
+                        <p>Chard</p>
+                    </div>
+                    <div class="crop-item">
+                        <img src="https://www.health.com/thmb/Rmc7904DESkPtLdsuVB49yGBZNo=/3950x0/filters:no_upscale():max_bytes(150000):strip_icc()/Health-Stocksy_txp48915e00jrw300_Medium_5965806-1b7dc08bfcbc4b748e5f1f27f67894a5.jpg" alt="Broccoli">
+                        <p>Broccoli</p>
+                    </div>
+                    <div class="crop-item">
+                        <img src="https://assets.clevelandclinic.org/transform/871f96ae-a852-4801-8675-683191ce372d/Benefits-Of-Cabbage-589153824-770x533-1_jpg" alt="Cabbage">
+                        <p>Cabbage</p>
+                    </div>
+                    <div class="crop-item">
+                        <img src="https://www.shutterstock.com/image-photo/healthy-benefits-bush-beansgreen-beans-260nw-751391686.jpg" alt="Snap Beans">
+                        <p>Snap Beans</p>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Footer -->
+            <footer id="footer">
+            </footer>
+        </div>
+        <script>
+            window.onload = function() { document.body.classList.remove('is-preload'); }
+            window.ontouchmove = function() { return false; }
+            window.onorientationchange = function() { document.body.scrollTop = 0; }
+        </script>
+    </body>
+</html>

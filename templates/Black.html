@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Black Soil</title>
+        <link rel="shortcut icon" type="image" href="/static/css/images/Clay_2.jpg">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-image: url("https://www.vedantu.com/question-sets/d95b6135-bb2d-4012-9202-09783f9814905747391973605676716.png");
+            }
+            #wrapper {
+                max-width: 1200px;
+                width: 90%;
+                text-align: center;
+                background-image: url('https://cdn.pixabay.com/photo/2023/02/01/21/40/pink-7761356_640.png');
+				background-repeat: no-repeat;
+				background-size: cover;
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 2em;
+                margin-bottom: 20px;
+                color: #333;
+            }
+            header p {
+                font-size: 1.2em;
+                color: #555;
+            }
+            .crop-gallery {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                gap: 20px;
+                margin-top: 20px;
+            }
+            .crop-item {
+                text-align: center;
+                width: calc(33% - 20px);
+                box-sizing: border-box;
+            }
+            .crop-item img {
+                width: 100%;
+                height: auto;
+                max-height: 150px;
+                border: 2px solid #ccc;
+                border-radius: 8px;
+                object-fit: cover;
+            }
+            .crop-item p {
+                margin-top: 10px;
+                font-size: 1em;
+                font-weight: bold;
+                color: #333;
+            }
+            footer {
+                margin-top: 20px;
+                font-size: 0.9em;
+                color: #aaa;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <!-- Header -->
+            <header id="header">
+                <h1>Soil Type: Black Soil</h1>
+                <p>You can Plant below crops:</p>
+                <div class="crop-gallery">
+                    <div class="crop-item">
+                        <img src="https://www.world-grain.com/ext/resources/2023/07/28/wheat-ears-field_NITR---STOCK.ADOBE.COM_e.jpg?height=667&t=1724852636&width=1080" alt="Wheat">
+                        <p>Wheat</p>
+                    </div>
+                    <div class="crop-item">
+                        <img src="https://pmfias.b-cdn.net/wp-content/uploads/2024/05/Picture-1-39.png" alt="Jowar">
+                        <p>Jowar</p>
+                    </div>
+                    <div class="crop-item">
+                        <img src="https://indocert.org/wp-content/uploads/2024/10/2.png" alt="Millets">
+                        <p>Millets</p>
+                    </div>
+                    <div class="crop-item">
+                        <img src="https://img.feedstrategy.com/files/base/wattglobalmedia/all/image/2019/10/fs.linseed-in-animal-feed.png?auto=format%2Ccompress&fit=max&q=70&w=1200" alt="Linseed">
+                        <p>Linseed</p>
+                    </div>
+                    <div class="crop-item">
+                        <img src="https://cdn.britannica.com/33/126033-050-0009517A/Castor-bean-seeds-oil-cakes.jpg" alt="Castor">
+                        <p>Castor</p>
+                    </div>
+                    <div class="crop-item">
+                        <img src="https://images.contentstack.io/v3/assets/blt0e5ec1de4817c440/blt94d3f45a2d1a7cc1/65ce661e59e1a230c49651c5/Deb-Snadidge-original-Sunflower-field.jpg" alt="Sunflower">
+                        <p>Sunflower</p>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Footer -->
+            <footer id="footer">
+            </footer>
+        </div>
+        <script>
+            window.onload = function() { document.body.classList.remove('is-preload'); }
+            window.ontouchmove = function() { return false; }
+            window.onorientationchange = function() { document.body.scrollTop = 0; }
+        </script>
+    </body>
+</html>
