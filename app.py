@@ -1,12 +1,11 @@
-from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 import numpy as np
 import streamlit as st
-import os
-
+import h5py
 # Load the trained model
 model_path = "Soil_Classification.h5"
-SoilNet = load_model(model_path,compile=False)
+SoilNet = h5py.File(model_path, 'r+')
+
 st.markdown(
         """
         <style>
