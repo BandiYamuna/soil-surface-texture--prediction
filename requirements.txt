@@ -1,5 +1,4 @@
 numpy==1.26.4
 streamlit==1.30.0
-dnaMD==2.1.0
-h5py==3.11.0
+keras
 tensorflow==2.17.0
