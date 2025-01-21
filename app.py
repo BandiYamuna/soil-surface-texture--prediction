@@ -6,7 +6,7 @@ import os
 
 # Load the trained model
 model_path = "Soil_Classification.h5"
-SoilNet = load_model(model_path)
+SoilNet = load_model(model_path,compile=False)
 st.markdown(
         """
         <style>
